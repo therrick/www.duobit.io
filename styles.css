@@ -47,6 +47,7 @@ h1 {
 .smile {
     font-size: 12em;
     margin-top: -0.8em;
+    z-index: -1;
 }
 
 /* Footer Styling */
