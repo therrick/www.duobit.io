@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: "Gill Sans", sans-serif; /* Using Gill Sans font */
+}
+
+/* Centered Div Styling */
+.centered {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Digit Styling */
+.digit {
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+/* Smile Styling */
+.smile {
+    font-size: 5em;
+    transform: rotate(90deg) scaleY(2); /* Rotated and stretched horizontally */
+    margin-top: -0.4em;
+    margin-left: 0.4em;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+footer a {
+    color: #50b3a2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
