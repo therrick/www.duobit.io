@@ -14,7 +14,7 @@ body {
     align-items: center;
     background-color: #f4f4f4;
     color: #333;
-    font-family: "Gill Sans", sans-serif; /* Using Gill Sans font */
+    font-family: "Gill Sans", sans-serif;
 }
 
 /* Centered Div Styling */
@@ -40,14 +40,13 @@ h1 {
 .digit {
     display: inline-block;
     transition: color 0.3s;
+    padding: 2px;
 }
 
 /* Smile Styling */
 .smile {
-    font-size: 5em;
-    transform: rotate(90deg) scaleY(2); /* Rotated and stretched horizontally */
-    margin-top: -0.4em;
-    margin-left: 0.4em;
+    font-size: 12em;
+    margin-top: -0.8em;
 }
 
 /* Footer Styling */
@@ -55,7 +54,7 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     width: 100%;
     position: absolute;
     bottom: 0;
