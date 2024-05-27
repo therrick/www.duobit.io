@@ -25,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: -30vh; /* Adjust this value to move the content higher or lower */
 }
 
 /* Heading Styling */
